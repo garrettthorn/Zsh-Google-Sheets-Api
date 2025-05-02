@@ -12,7 +12,8 @@ Of course, storing credentials in plain-text is always a bad idea, even on a har
 ## Appending Data to Rows
 One of the most basic function is when you'd like to append some data to the bottom of a row.  This is by far the simplest function, where you're essentially just defining the sheet name, sheet id, and range; then passing over all the data.  You can find this in the [append-row.sh](https://github.com/garrettthorn/Zsh-Google-Sheets-Api/blob/main/append-row.sh) file in this repo.
 
-## More to come!
+## Downloading CSVs
+Often, I need to download Google Sheets as CSVs so I can parse the data inside them using awk.  The [download-sheet.sh](https://github.com/garrettthorn/Zsh-Google-Sheets-Api/blob/main/download-sheet.sh) file in this repo explains how to do this and save the CSV locally on your machine.  Note that you can download public sheets without needing a refreshed access token, but you'll need one to download sheets that are private to your account or those that have been shared with you.
 
 ## Notes
 
