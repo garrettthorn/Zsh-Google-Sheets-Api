@@ -38,5 +38,5 @@ refreshCodeResponse=$( curl "https://accounts.google.com/o/oauth2/token" -s --re
 echo $refreshCodeResponse
 
 #within this json response, you will see the refresh_token value.  
-#now you have the three elements (clientID, clientSecret, and refreshToken) that will allow you to always get a refreshed access token and send mail via zsh or bash script
+#now you have the three elements (clientID, clientSecret, and refreshToken) that will allow you to always get a refreshed access token and use Google APIs via zsh or bash script
 
